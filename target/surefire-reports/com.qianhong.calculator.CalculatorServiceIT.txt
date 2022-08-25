@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.qianhong.calculator.CalculatorServiceIT
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.937 s <<< FAILURE! - in com.qianhong.calculator.CalculatorServiceIT
+testAdd(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.776 s  <<< ERROR!
+java.net.UnknownHostException: jetty_container: Temporary failure in name resolution
+	at com.qianhong.calculator.CalculatorServiceIT.testAdd(CalculatorServiceIT.java:30)
+
+testDiv(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.009 s  <<< ERROR!
+java.net.UnknownHostException: jetty_container
+	at com.qianhong.calculator.CalculatorServiceIT.testDiv(CalculatorServiceIT.java:57)
+
+testMul(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.002 s  <<< ERROR!
+java.net.UnknownHostException: jetty_container
+	at com.qianhong.calculator.CalculatorServiceIT.testMul(CalculatorServiceIT.java:48)
+
+testSub(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.006 s  <<< ERROR!
+java.net.UnknownHostException: jetty_container
+	at com.qianhong.calculator.CalculatorServiceIT.testSub(CalculatorServiceIT.java:39)
+
+testPing(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.005 s  <<< ERROR!
+java.net.UnknownHostException: jetty_container
+	at com.qianhong.calculator.CalculatorServiceIT.testPing(CalculatorServiceIT.java:21)
+
