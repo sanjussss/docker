@@ -12,6 +12,12 @@ node {
             --name jetty_container maven:3.8.6-openjdk-18-slim mvn jetty:run
       '''
    }
+   
+   
+   stage('Initialize'){
+        def dockerHome = tool 'myDocker'
+        env.PATH = "${dockerHome}/bin:${env.PATH}"
+    }
    stage('Junit Test') {
       sh '''
          docker run -it --rm -v maven_repo:/root/.m2 \
